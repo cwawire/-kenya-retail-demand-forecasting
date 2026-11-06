@@ -1,0 +1,18 @@
+Column,Type,Definition
+Date,Date,Daily observation date; synthetic period 1 Aug–29 Oct 2026.
+StoreID,Text,Synthetic store identifier; one illustrative store.
+ProductID,Text,Product key linking to dim_product.
+UnitsDemanded,Whole number,Synthetic underlying demand before stock availability.
+UnitsSold,Whole number,Units sold; capped by available stock.
+StockDelivered,Whole number,Simulated replenishment units received that day.
+OpeningStock,Whole number,Opening on-hand stock before deliveries.
+AvailableStock,Whole number,Opening stock plus deliveries.
+ClosingStock,Whole number,Available stock less units sold.
+StockoutFlag,Whole number,1 when simulated demand exceeded available stock; otherwise 0.
+UnitSellingPriceKES,Whole number,"Illustrative fixed selling price in KES, not sourced market prices."
+SalesRevenueKES,Whole number,UnitsSold multiplied by illustrative unit selling price.
+Transactions,Whole number,"Synthetic daily store transactions, repeated across product rows in sales fact."
+CashiersScheduled,Whole number,Synthetic number of cashiers scheduled per day.
+CashiersPresent,Whole number,Synthetic cashiers present after simulated attendance.
+ShiftHours,Whole number,Illustrative 8-hour shift.
+DataType,Text,SIMULATED marker.

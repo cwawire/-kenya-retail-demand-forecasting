@@ -1,0 +1,11 @@
+ProductID,ProductName,Category,UnitSellingPriceKES,OpeningStockUnits,SupplierLeadTimeDays,SafetyStockUnits,TargetUnitsPerCashierPerShift
+P001,Maize Flour 2kg,Staples,185,120,4,35,70
+P002,Rice 2kg,Staples,320,90,5,25,55
+P003,Cooking Oil 1L,Cooking Essentials,285,100,4,30,60
+P004,Sugar 2kg,Staples,310,110,4,28,60
+P005,Milk 500ml,Dairy,65,180,2,60,110
+P006,Bread 400g,Bakery,75,160,1,55,100
+P007,Eggs Tray,Dairy,480,65,3,18,35
+P008,Tea 250g,Beverages,210,80,5,20,45
+P009,Beans 1kg,Staples,190,100,5,25,50
+P010,Washing Powder 1kg,Household,240,75,6,18,40
