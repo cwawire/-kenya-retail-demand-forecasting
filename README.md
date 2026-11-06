@@ -1,1 +1,1 @@
-# -kenya-retail-demand-forecasting
+# kenya-retail-demand-forecasting
